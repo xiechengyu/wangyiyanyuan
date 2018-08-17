@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 565px;
+    background-color: bisque;
+
+}
+.headerline {
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.header_p1{
+    float: left;
+    width: 200px;
+    height: 100%;
+
+    text-align: center;
+    text-decoration: none;
+    margin-left: 180px;
+    padding-top: 7px;
+}
+.header_p1 a{
+    color: #ccc;
+}
+.header_p1 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.header_p2{
+    float: left;
+    width: 300px;
+    height: 100%;
+
+    text-align: center;
+    text-decoration: none;
+
+    padding-top: 7px;
+}
+.header_p2 a{
+    color: darkkhaki;
+}
+.header_p2 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.header_p3{
+    float: left;
+    width: 450px;
+    height: 100%;
+    margin-left: 170px;
+
+    text-align: center;
+    text-decoration: none;
+
+    padding-top: 7px;
+}
+.header_p3 a{
+    color: #ccc;
+}
+.header_p3 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.navigation1{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+
+    z-index: 20;
+}
+
+.nav1_box1{
+    position: relative;
+    width: 100%;
+    height: 150px;
+
+}
+.nav1_box1 input{
+    position: relative;
+    width: 250px;
+    height: 30px;
+    bottom: -75px;
+    margin-left: 960px;
+}
+.nav1_box1 span{
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+    top: 78px;
+    right: -10px;
+    box-sizing: border-box;
+}
+.nav1_box1 a img{
+    position: absolute;
+    width: 210px;
+
+    height: 86px;
+    margin: 42px 630px;
+}
+.nav1_box2{
+    float: left;
+    width: 1050px;
+    height: 50px;
+    list-style: none;
+    margin-left: 265px;
+
+}
+.nav1_box2 li{
+    list-style: none;
+    width: 75px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+    font-weight: bold;
+    float: left;
+}
+.nav1_box2 a{
+    color: black;
+}
+.nav1_box2 a:hover{
+    color: darkkhaki;
+}
+.nav1_box2_content{
+    clear: both;
+}
+.nav1_box2_content div{
+    width: 404px;height: 200px;border: 1px solid #d8d8d8;display: none;
+}
